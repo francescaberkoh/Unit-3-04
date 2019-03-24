@@ -1,4 +1,12 @@
-
+<?php
+/*
+Created on Mar 7, 2019
+Created for: ICS3U
+@author: Francesca Berkoh
+Daily Assignment - 3-04
+This program determines a leap year
+*/
+?>
 
 <form action="" method="POST">
 Type a year:
@@ -6,6 +14,7 @@ Type a year:
 <input type="text" name="number_entered" value=''/> <br><br>
 <input type="submit" name="check" value="Leap Year?"/><br><br>
 </form>
+
 <?php
 $checkbutton= $_POST['check'];
 $year= $_POST['number_entered'];
