@@ -21,7 +21,7 @@ $year= $_POST['number_entered'];
 
 if ($checkbutton){
     if ($year % 100 == 0){
-        if ($year % 400){
+        if ($year % 400 == 0){
             echo"It's a leap year!";
         }
         else{
